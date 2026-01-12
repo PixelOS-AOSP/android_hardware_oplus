@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a3b49658_72397701",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2026-01-12T06:49:16Z",
+      "side": 1,
+      "message": "We have https://review.pixelos.net/c/PixelOS-AOSP/android_device_custom_sepolicy/+/1590",
+      "revId": "67092d15a22f0ddaaa2a42b3fce0644f32ff740a",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
