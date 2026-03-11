@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "f1076a84_636166b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000008
+      },
+      "writtenOn": "2026-03-11T11:00:29Z",
+      "side": 1,
+      "message": "this shouldn\u0027t be needed since devicesettings is tracked from lineage",
+      "revId": "4324e8cb47ad9274f874f0f7d64b1f060a6956c3",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
