@@ -64,6 +64,30 @@
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "de528d7b_8cc77a82",
+        "filename": "sepolicy/qti/vendor/file.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1000067
+      },
+      "writtenOn": "2026-04-11T11:00:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "c453dce6_9b2808a1",
+      "range": {
+        "startLine": 98,
+        "startChar": 5,
+        "endLine": 98,
+        "endChar": 20
+      },
+      "revId": "31a28539176da9f217af64b177aa3675efac7b46",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "34719ea6_74392686",
@@ -87,6 +111,30 @@
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "1dd021b9_14e07054",
+        "filename": "sepolicy/qti/vendor/genfs_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1000067
+      },
+      "writtenOn": "2026-04-11T11:00:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "34719ea6_74392686",
+      "range": {
+        "startLine": 102,
+        "startChar": 35,
+        "endLine": 102,
+        "endChar": 50
+      },
+      "revId": "31a28539176da9f217af64b177aa3675efac7b46",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "7ce4d4e7_292463c3",
@@ -100,6 +148,30 @@
       "writtenOn": "2026-04-11T09:53:46Z",
       "side": 1,
       "message": "```suggestion\nallow hal_oplus_urcc_aidl proc_sched:file rw_file_perms;\n```",
+      "range": {
+        "startLine": 32,
+        "startChar": 26,
+        "endLine": 32,
+        "endChar": 41
+      },
+      "revId": "31a28539176da9f217af64b177aa3675efac7b46",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7a35b924_1c39e7d7",
+        "filename": "sepolicy/qti/vendor/hal_oplus_urcc_aidl.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000067
+      },
+      "writtenOn": "2026-04-11T11:00:09Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "7ce4d4e7_292463c3",
       "range": {
         "startLine": 32,
         "startChar": 26,
