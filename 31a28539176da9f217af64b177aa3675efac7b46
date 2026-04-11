@@ -1,6 +1,29 @@
 {
   "comments": [
     {
+      "unresolved": true,
+      "key": {
+        "uuid": "48465ac2_d648d75b",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2026-04-11T09:53:46Z",
+      "side": 1,
+      "message": "```suggestion\nsepolicy: qti: Label /proc/sys/walt as proc_sched\n```",
+      "range": {
+        "startLine": 7,
+        "startChar": 39,
+        "endLine": 7,
+        "endChar": 54
+      },
+      "revId": "31a28539176da9f217af64b177aa3675efac7b46",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
       "unresolved": false,
       "key": {
         "uuid": "c8869d14_cd99e180",
@@ -14,6 +37,75 @@
       "writtenOn": "2026-04-11T09:50:25Z",
       "side": 1,
       "message": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/734e0cfcc63a49feab50e3d404e6310ebb2e27b0",
+      "revId": "31a28539176da9f217af64b177aa3675efac7b46",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c453dce6_9b2808a1",
+        "filename": "sepolicy/qti/vendor/file.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 98,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2026-04-11T09:53:46Z",
+      "side": 1,
+      "message": "```suggestion\ntype proc_sched, fs_type, proc_type;\n```",
+      "range": {
+        "startLine": 98,
+        "startChar": 5,
+        "endLine": 98,
+        "endChar": 20
+      },
+      "revId": "31a28539176da9f217af64b177aa3675efac7b46",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "34719ea6_74392686",
+        "filename": "sepolicy/qti/vendor/genfs_contexts",
+        "patchSetId": 1
+      },
+      "lineNbr": 102,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2026-04-11T09:53:46Z",
+      "side": 1,
+      "message": "```suggestion\ngenfscon proc /sys/walt u:object_r:proc_sched:s0\n```",
+      "range": {
+        "startLine": 102,
+        "startChar": 35,
+        "endLine": 102,
+        "endChar": 50
+      },
+      "revId": "31a28539176da9f217af64b177aa3675efac7b46",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "7ce4d4e7_292463c3",
+        "filename": "sepolicy/qti/vendor/hal_oplus_urcc_aidl.te",
+        "patchSetId": 1
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2026-04-11T09:53:46Z",
+      "side": 1,
+      "message": "```suggestion\nallow hal_oplus_urcc_aidl proc_sched:file rw_file_perms;\n```",
+      "range": {
+        "startLine": 32,
+        "startChar": 26,
+        "endLine": 32,
+        "endChar": 41
+      },
       "revId": "31a28539176da9f217af64b177aa3675efac7b46",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
