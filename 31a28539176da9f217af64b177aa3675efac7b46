@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c8869d14_cd99e180",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2026-04-11T09:50:25Z",
+      "side": 1,
+      "message": "https://github.com/LineageOS/android_device_lineage_sepolicy/commit/734e0cfcc63a49feab50e3d404e6310ebb2e27b0",
+      "revId": "31a28539176da9f217af64b177aa3675efac7b46",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
